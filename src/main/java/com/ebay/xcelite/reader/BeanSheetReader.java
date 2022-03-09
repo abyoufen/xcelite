@@ -46,7 +46,6 @@ import com.google.common.collect.Sets;
  * Class description...
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Sep 9, 2013
  * 
  */
 public class BeanSheetReader<T> extends SheetReaderAbs<T> {

@@ -25,7 +25,6 @@ import com.google.common.collect.Maps;
  * Class description...
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Sep 9, 2013
  * 
  */
 public final class CellStylesBank {

@@ -24,7 +24,6 @@ import com.google.common.base.Splitter;
  * An abstraction of delimiter column value converter.
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Sep 14, 2013
  * 
  */
 public abstract class DelimiterColumnValueConverter implements ColumnValueConverter<String, Collection<?>> {

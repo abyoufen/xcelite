@@ -21,7 +21,6 @@ import java.util.Collection;
  * Class description...
  *
  * @author kharel (kharel@ebay.com)
- * @creation_date Nov 21, 2013
  * 
  */
 public class Collections<T> {

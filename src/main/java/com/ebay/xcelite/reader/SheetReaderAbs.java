@@ -28,7 +28,6 @@ import com.google.common.collect.Lists;
  * Class description...
  *
  * @author kharel (kharel@ebay.com)
- * @creation_date Nov 11, 2013
  * 
  */
 public abstract class SheetReaderAbs<T> implements SheetReader<T> {

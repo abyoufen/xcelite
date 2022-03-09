@@ -34,7 +34,6 @@ import com.ebay.xcelite.sheet.XceliteSheetImpl;
  * Class description...
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Nov 9, 2013
  * 
  */
 public class Xcelite {

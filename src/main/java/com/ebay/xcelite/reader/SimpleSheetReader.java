@@ -29,7 +29,6 @@ import com.google.common.collect.Lists;
  * Class description...
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Nov 8, 2013
  * 
  */
 public class SimpleSheetReader extends SheetReaderAbs<Collection<Object>> {

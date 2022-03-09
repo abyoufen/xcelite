@@ -30,7 +30,6 @@ import com.ebay.xcelite.converters.ColumnValueConverter;
  * as column and value in excel file.
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Oct 24, 2013
  * 
  */
 @Retention(RetentionPolicy.RUNTIME)

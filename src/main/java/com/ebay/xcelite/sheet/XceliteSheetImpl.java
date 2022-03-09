@@ -31,7 +31,6 @@ import com.ebay.xcelite.writer.SimpleSheetWriter;
  * Class description...
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Nov 9, 2013
  * 
  */
 public class XceliteSheetImpl implements XceliteSheet {

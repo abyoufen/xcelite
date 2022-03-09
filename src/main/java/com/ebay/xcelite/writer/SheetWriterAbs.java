@@ -26,7 +26,6 @@ import com.ebay.xcelite.sheet.XceliteSheet;
  * Class description...
  *
  * @author kharel (kharel@ebay.com)
- * @creation_date Nov 10, 2013
  * 
  */
 public abstract class SheetWriterAbs<T> implements SheetWriter<T> {

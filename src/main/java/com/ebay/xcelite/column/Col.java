@@ -21,7 +21,6 @@ import com.ebay.xcelite.converters.ColumnValueConverter;
  * Represents a Column object which holds all data about the Excel column.
  * 
  * @author kharel (kharel@ebay.com)
- * @creation_date Aug 29, 2013
  * 
  */
 public class Col implements Comparable<Col> {
