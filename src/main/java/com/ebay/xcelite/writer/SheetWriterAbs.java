@@ -18,6 +18,7 @@ package com.ebay.xcelite.writer;
 import java.util.Date;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 
 import com.ebay.xcelite.sheet.XceliteSheet;
 
@@ -50,10 +51,10 @@ public abstract class SheetWriterAbs<T> implements SheetWriter<T> {
     } else if (type == Double.class || type == double.class || type == Integer.class || type == int.class
         || type == Long.class || type == long.class || type == Float.class || type == float.class
         || type == Short.class || type == short.class) {
-      cell.setCellType(Cell.CELL_TYPE_NUMERIC);
+      cell.setCellType(CellType.NUMERIC);
       cell.setCellValue(Double.valueOf(fieldValueObj.toString()));
     } else {
-      cell.setCellType(Cell.CELL_TYPE_STRING);
+      cell.setCellType(CellType.STRING);
       cell.setCellValue(fieldValueObj.toString());
     }
   }

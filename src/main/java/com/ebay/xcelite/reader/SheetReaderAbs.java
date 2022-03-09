@@ -18,6 +18,8 @@ package com.ebay.xcelite.reader;
 import java.util.List;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+
 
 import com.ebay.xcelite.sheet.XceliteSheet;
 import com.google.common.collect.Lists;
@@ -45,10 +47,10 @@ public abstract class SheetReaderAbs<T> implements SheetReader<T> {
     if (cell == null) return null;
     Object cellValue = null;
     switch (cell.getCellType()) {
-      case Cell.CELL_TYPE_BOOLEAN:
+      case BOOLEAN:
         cellValue = cell.getBooleanCellValue();
         break;
-      case Cell.CELL_TYPE_NUMERIC:
+      case NUMERIC:
         cellValue = cell.getNumericCellValue();
         break;
       default:

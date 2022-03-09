@@ -25,6 +25,7 @@ import java.util.Map;
 import java.util.Set;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.reflections.ReflectionUtils;
 
 import com.ebay.xcelite.annotate.NoConverterClass;
@@ -165,7 +166,7 @@ public class BeanSheetWriter<T> extends SheetWriterAbs<T> {
         continue;
       if (writeHeader) {
         Cell cell = headerRow.createCell(i);
-        cell.setCellType(Cell.CELL_TYPE_STRING);
+        cell.setCellType(CellType.STRING);
         cell.setCellStyle(CellStylesBank.get(sheet.getNativeSheet().getWorkbook()).getBoldStyle());
         cell.setCellValue(column.getName());
         i++;
